@@ -1,0 +1,45 @@
+.view-area {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-top: 60px;
+}
+
+.scroller {
+  display: block;
+  width: 98vw;
+  /* to do why 98? */
+  height: 500vh;
+  /* height for all blocks, if add block so increase it */
+}
+
+.section-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200vw;
+  height: 200vh;
+}
+
+.section-container section {
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: none;
+  width: 100vw;
+  height: 100vh;
+}
+
+.section-container section.active {
+  display: block;
+}
+
+.horizontal {
+  float: left;
+}
+.vertical {
+  clear: both;
+}
