@@ -10,8 +10,8 @@ document.addEventListener("DOMContentLoaded", function () {
     { x: 2, y: 1, horizontal: false },
     { x: 0, y: 2, horizontal: false },
   ];
-  //   var maxRows = 3;
-  //   var maxCols = 2;
+  var maxRows = 3;
+  var maxCols = 2;
 
   var easeInQuad = function (t) {
     return t * t;

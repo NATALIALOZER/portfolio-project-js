@@ -12,7 +12,6 @@
 .scroller {
   display: block;
   width: 98vw;
-  /* to do why 98? */
   height: 500vh;
   /* height for all blocks, if add block so increase it */
 }

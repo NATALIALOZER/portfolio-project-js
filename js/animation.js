@@ -19,7 +19,7 @@ function drawLaptop() {
     (document.documentElement.scrollHeight -
       document.documentElement.clientHeight);
 
-  if (scrollpercent >= 0.1) {
+  if (scrollpercent >= 0.999) {
     return;
   }
 
