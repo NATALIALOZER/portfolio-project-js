@@ -148,6 +148,24 @@ h5 {
   padding: 12% 5%;
 }
 
+footer {
+  background-color: var(--active);
+  font-size: 1.2em;
+  padding-bottom: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  margin: 5%;
+}
+
+footer a:hover {
+  color: white;
+  font-size: larger;
+}
+
 @media only screen and (max-width: 991px) {
   body {
     background-color: var(--active);
