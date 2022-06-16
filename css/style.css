@@ -37,6 +37,11 @@ h5 {
 
 .dropdown-menu {
   border: 0;
+  background: transparent;
+}
+
+.dropdown-menu a {
+  background: transparent;
 }
 
 .dropdown-menu li a:after {
@@ -54,7 +59,7 @@ h5 {
 }
 
 .slogan {
-  margin-top: 5%;
+  margin-top: 10%;
 }
 
 .poster1 {
@@ -78,7 +83,8 @@ h5 {
 
 .left-container {
   display: flex;
-  margin-top: 42%;
+  margin-top: auto;
+  margin-bottom: 0;
 }
 
 .bottom {
@@ -91,21 +97,73 @@ h5 {
 }
 
 .locker {
+  opacity: 0;
   padding: 0 5%;
   gap: 20px;
   position: fixed;
   visibility: hidden;
+  z-index: 1;
+}
+
+.locker a img:hover {
+  cursor: pointer;
+  height: 80px;
 }
 
 #poster1 {
   z-index: -1000;
 }
 
-/* #poster2 {
-  margin-left: -30px;
-} */
-
 #reuseimg {
   width: 25px;
   height: 25px;
+}
+
+.gallery {
+  margin-top: 12%;
+  height: 520px;
+  background: url(../img/background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gallery div {
+  margin-top: 6.5%;
+  z-index: -100;
+  height: 67%;
+  padding: 0 3% 0 0 !important;
+}
+
+.gallery div.weather {
+  background-image: url(../img/11.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 !important;
+  height: 100%;
+  margin-right: 10px;
+  border-radius: 25px;
+}
+
+.section5 {
+  padding: 12% 5%;
+}
+
+@media only screen and (max-width: 991px) {
+  body {
+    background-color: var(--active);
+  }
+  .gallery {
+    margin-top: 40%;
+    line-height: 1;
+    padding: 25% 0 0 0 !important;
+  }
+  .gallery div.weather {
+    margin: 0 !important;
+    height: 100%;
+    margin-right: 10px;
+    border-radius: 15px;
+  }
+  .section5 {
+    padding: 22% 0 0 0;
+  }
 }

@@ -6,14 +6,13 @@
   position: fixed;
   top: 0;
   left: 0;
-  margin-top: 60px;
+  z-index: -11;
 }
 
 .scroller {
   display: block;
   width: 98vw;
   height: 500vh;
-  /* height for all blocks, if add block so increase it */
 }
 
 .section-container {
@@ -29,7 +28,7 @@
   background-size: cover;
   display: none;
   width: 100vw;
-  height: 100vh;
+  height: 85vh;
 }
 
 .section-container section.active {
