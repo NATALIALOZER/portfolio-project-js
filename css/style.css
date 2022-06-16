@@ -167,3 +167,21 @@ h5 {
     padding: 22% 0 0 0;
   }
 }
+
+@media only screen and (min-width: 1500px) {
+  body {
+    font-size: 30px;
+  }
+  h4 {
+    font-size: 36px;
+  }
+  h5 {
+    font-size: 32px;
+  }
+  .gallery {
+    height: 800px;
+  }
+  .locker img {
+    width: 120px !important;
+  }
+}

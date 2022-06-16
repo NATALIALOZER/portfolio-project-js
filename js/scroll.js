@@ -64,8 +64,6 @@ $(document).ready(function () {
     if (index != lastIndex) {
       lastIndex = index;
       sectionContainer.style.transform = "translate(0,0)";
-
-      console.log("activate now: ", index);
     }
 
     if (indexArray[index].horizontal === false) {

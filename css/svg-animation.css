@@ -11,3 +11,13 @@
   height: 450px;
   z-index: -100;
 }
+
+@media only screen and (min-width: 1500px) {
+  #mySVG {
+    margin-top: -5%;
+    margin-left: 15%;
+  }
+  .poster1 {
+    margin-top: -65%;
+  }
+}
